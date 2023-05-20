@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library system</title>
+    <link rel="stylesheet" href="./contest.css">
+    <link rel="icon" href="./fevicon.png">
+</head>
+<body>
+    <header>
+        <nav id="navigation">
+            <span id="library">Library System</span>
+            
+    
+           <span> <a href="#register">Register</a>
+            <a href="#table">Books</a>
+    
+        <a href="#">About_us</a></span>
+        </nav>
+
+    </header>
+    <br>
+    <br>
+    <main>
+    
+        <div class="section" id="table">
+            <h2>Books</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                     <tr>
+                        <td>1</td>
+                        <td><a href="#"><b>HTML</b></a>
+                            <table border="1">
+                                <tr><td>Publication Date:2000</td></tr>
+                                <tr><td>page Count:250</td></tr>
+                                <tr><td>ISBN: 123-4567890112</td></tr>
+                            </table>
+                        </td>
+                        <td>Rajesh</td>
+                        <td>genre1</td>
+                        <td>Available</td>
+                     </tr>
+                     <tr>
+                        <td>2</td>
+                        <td><a href="#"><b>CSS</b></a>
+                            <table border="1">
+                                <tr><td>Publication Date:2022</td></tr>
+                                <tr><td>page Count:110</td></tr>
+                                <tr><td>ISBN: 123-4541790112</td></tr>
+                            </table>
+                        </td>
+                        <td>Ganesh</td>
+                        <td>genre2</td>
+                        <td>Available</td>
+                     </tr>
+                     <tr>
+                        <td>3</td>
+                        <td><a href="#"><b>javascript</b></a>
+                            <table border="1">
+                                <tr><td>Publication Date:2020</td></tr>
+                                <tr><td>page Count:420</td></tr>
+                                <tr><td>ISBN: 123-4567890425</td></tr>
+                            </table>
+                        </td>
+                        <td>Rakesh</td>
+                        <td>genre3</td>
+                        <td>Not-Available</td>
+                     </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <br>
+        <div class="section" id="register">
+            <h2>Register</h2>
+            <form method="get">
+        <div>
+            <label for="firstname"><b>First Name:</b></label>
+            <br>
+            <input type="text" id="firstname" name="firstname">
+            <br>
+        </div>
+
+        <div>
+            <label for="lastname"><b>Last Name:</b></label>
+            <br>
+            
+            <input type="text" id="lastname" name="lastname">
+        </div>
+        <div>
+
+            <label for="DOB"><b>Date Of Birth:</b></label>
+            <br>
+            
+            <input type="date" id="DOB" name="DOB">
+        </div>
+        <div>
+            
+            <label for="age"><b>Age:</b></label>
+            <br>
+            
+            <input type="number" id="age" name="age" min="5" max="100">
+        </div>
+        <div>
+            
+            <label for="mail"><b>Email:</b></label>
+            <br>
+            
+            <input type="email" id="mail" name="mail">
+        </div>
+        <div>
+            
+            <label for="password"><b>Password:</b></label>
+            
+            <br>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+        
+            <label for="confirm password"><b>Confirm Password:</b></label>
+            <br>
+
+            <input type="password" id="confirm password" name="confirm password">
+        </div>
+            <br>
+            <div>
+                <button type="submit">Register</button>
+
+            </div>
+            
+            </form>
+            </div>
+            
+            
+
+    </main>
+        
+    </body>
+</html>
